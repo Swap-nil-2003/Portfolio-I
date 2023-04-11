@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
+  AiFillGithub,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
@@ -58,7 +58,7 @@ export default function Home() {
                Find more about me from below:
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="" target="blank"><AiFillTwitterCircle /></a>
+              <a href="https://github.com/Swap-nil-2003" target="blank"><AiFillGithub /></a>
               <a href="https://www.linkedin.com/in/swapnil-aichbhaumik-28a980224/" target="blank"><AiFillLinkedin /></a>
               <a href="https://www.youtube.com/@freecodecamp" target="blank"><AiFillYoutube /></a>
             </div>
